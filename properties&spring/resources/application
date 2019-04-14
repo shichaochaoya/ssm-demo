@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schma/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop">
+
+
+
+    <aop:aspectj-autoproxy/><!--自动代理-->
+
+
+    <!--xml切面配置-->
+    <bean id="loger" class="spring_demo.aop.Logger"></bean>
+    <aop:config>
+        <aop:aspect id="logAspect" ref="loger">
+            <aop:around method="doLog" pointcut="execution(* spring_demo.service.*.*(..))"/>
+        </aop:aspect>
+    </aop:config>
+
+
+
+</beans>

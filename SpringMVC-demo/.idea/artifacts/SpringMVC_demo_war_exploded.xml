@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringMVC-demo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringMVC_demo_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringMVC-demo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMVC-demo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/javax/servlet/jstl/1.2/jstl-1.2.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/springframework/spring-aop/4.1.4.RELEASE/spring-aop-4.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/springframework/spring-beans/4.1.4.RELEASE/spring-beans-4.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/springframework/spring-core/4.1.4.RELEASE/spring-core-4.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/springframework/spring-expression/4.1.4.RELEASE/spring-expression-4.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/springframework/spring-web/4.1.4.RELEASE/spring-web-4.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/com/alibaba/fastjson/1.1.41/fastjson-1.1.41.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/aspectj/aspectjweaver/1.8.5/aspectjweaver-1.8.5.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/com/alibaba/druid/1.0.12/druid-1.0.12.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/springframework/spring-tx/4.1.4.RELEASE/spring-tx-4.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/magic box/mysql-connector-java-8.0.15.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/springframework/spring-webmvc/spring-webmvc-4.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/springframework/spring-context/spring-context-4.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/springframework/spring-jdbc/spring-jdbc-4.1.4.RELEASE.jar" />
+          <element id="file-copy" path="E:/magic box/jar包/MvnRepo/org/mybatis/mybatis/mybatis-3.4.6.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

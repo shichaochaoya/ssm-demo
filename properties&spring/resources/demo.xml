@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students color="red">
+    <student>
+        <name>wang</name>
+        <age>12</age>
+    </student>
+    <student>
+        <name>li</name>
+        <age>13</age>
+    </student><student>
+    <name>zhao</name>
+    <age>14</age>
+</student>
+</students>
