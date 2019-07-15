@@ -8,7 +8,7 @@
     <result column="Ssex" property="ssex" jdbcType="VARCHAR" />
     <result column="SageNum" property="sagenum" jdbcType="INTEGER" />
     <result column="Tid" property="tid" jdbcType="INTEGER" />
-    <association property="teacher" resultMap="teacherResultMap"/><!--关联对象和映射文件-->
+    <association property="teacher" resultMap="teacherResultMap"/><!--association关联对象和映射文件-->
   </resultMap>
 
   <resultMap id="teacherResultMap" type="com.wang.entity.Teacher" >
@@ -28,6 +28,7 @@
     from student s
     where Sid = #{sid,jdbcType=VARCHAR}
   </select>
+
 
 <!--通过关联字段关联到一个老师对象-->
   <select id="selectByPrimaryKeyWithTeacher" resultMap="teacherResultMap" parameterType="java.lang.String" >
